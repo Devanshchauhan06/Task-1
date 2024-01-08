@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.Company {
+    background-color: orchid;
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    height: 50px;
+    width: 300px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.intro {
+   text-align: center;
+   margin: auto;
+   width: 80%;
+   margin-top: 20px;
+    }
+
+.border {
+    color: orchid;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.meet {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.leader {
+    background-color: orchid;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    width: 400px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.d-1, .d-2, .d-3, .d-4, .d-5, .d-6 {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+/* Individual team member styles */
+.p-1, .p-2, .p-3, .p-4, .p-5, .p-6 {
+    flex: 1; /* Equal width for team members in a row */
+    max-width: 200px; /* Maximum width for each team member */
+    margin: 20px;
+    text-align: center;
+}
+
+.i-1, .i-2, .i-3, .i-4, .i-5, .i-6 {
+    margin-top: 10px;
+}
+
+.l-2,.l-3{
+    margin-top: 20px;
+    display: flex;
+}
+.icon-1,.icon-2{
+    height: 40px;
+    width: 40px;
+    display: flex;
+}
+
+
+.deve{
+    background-color: orchid;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    height: 40px;
+    width: 250px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.sale{
+    background-color: orchid;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    height: 40px;
+    width: 350px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 360px) {
+    .Company {
+        font-size: 25px;
+        height: 30px;
+        width: 150px;
+    }
+
+    .icon-1,.icon-2{
+        height: 30px;
+        width: 30px;
+        display: flex;
+    }
+
+    .leader{
+        font-size: 20px;
+        height: 25px;
+        width: 80%; /* Adjusted width for responsiveness */
+        max-width: 270px; /* Added max-width for larger screens */
+    }
+
+    .deve{
+        font-size: 20px;
+        height: 25px;
+        width: 80%; /* Adjusted width for responsiveness */
+        max-width: 270px; /* Added max-width for larger screens */
+    }
+
+    .sale {
+        font-size: 20px;
+        height: 25px;
+        width: 80%; /* Adjusted width for responsiveness */
+        max-width: 270px; /* Added max-width for larger screens */
+    }
+}
